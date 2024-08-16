@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  My github is ${data.github} and you can reach out to ${data.email} for any questions.
+  My github is ${data.github}, and you can reach out to ${data.email} for any questions!
   `}
 
 
