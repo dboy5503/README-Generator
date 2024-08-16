@@ -69,6 +69,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then(generateMarkdown(data))
+        .then(writeToFile("README.md", data));
 }
 
 // Function call to initialize app
